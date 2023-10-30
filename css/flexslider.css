@@ -43,6 +43,8 @@
 .flexslider {
   margin: 0;
   padding: 0;
+  -ms-touch-action: none;
+  touch-action: none;
 }
 .flexslider .slides > li {
   display: none;
